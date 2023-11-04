@@ -10,7 +10,7 @@
 
 ### Как использовать
 
-1. Посетите [Quotetook](https://your-github-username.github.io/quotetook/) на GitHub Pages.
+1. Посетите [Quotetook](https://zabojeb.github.io/quotetook/) на GitHub Pages.
 2. Используйте выпадающее меню, чтобы выбрать категорию цитаты.
 3. Нажмите кнопку "Next Quote", чтобы получить случайную цитату из выбранной категории.
 4. Цитата и имя автора будут отображены на экране.
