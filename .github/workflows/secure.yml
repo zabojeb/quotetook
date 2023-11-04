@@ -9,6 +9,9 @@ jobs:
   build:
     runs-on: ubuntu-latest
 
+    env:
+      GITHUB_X_API_KEY: ${{ secrets.X_API_KEY }}
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v2
@@ -20,9 +23,6 @@ jobs:
 
       - name: Install dependencies
         run: npm install
-
-      - name: Set X_API_KEY in environment
-        run: echo "::set-env name=GITHUB_X_API_KEY::${{ secrets.X_API_KEY }}"
 
       - name: Execute script.js
         run: node script.js
