@@ -1,0 +1,89 @@
+body {
+    background-color: transparent;
+    font-family: 'Arial', sans-serif;
+    color: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.quote {
+    font-size: 36px;
+    text-align: center;
+    line-height: 1.4;
+    max-width: 80%;
+}
+
+button {
+    background-color: transparent;
+    color: #fff;
+    border: dotted;
+    border-color: #fff;
+    padding: 12.5px 35px;
+    border-radius: 12.5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+    margin-top: 20px;
+}
+
+button:hover {
+    border-color: #181f3b;
+    background-color: #fff;
+    color: #181f3b;
+}
+
+div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#category-select {
+    padding: 10px 15px;
+    font-size: 18px;
+    border: dotted;
+    background-color: transparent;
+    color: #fff;
+    margin-bottom: 20px;
+    border-radius: 12.5px;
+}
+
+#category-select option {
+    background-color: #181f3b;
+    color: #fff;
+    border-radius: 12.5px;
+}
+
+.select {
+    /* for Firefox */
+    -moz-appearance: none;
+    /* for Chrome */
+    -webkit-appearance: none;
+
+    position: relative;
+    display: flex;
+    width: 20em;
+    height: 3em;
+    border-radius: .25em;
+    overflow: hidden;
+}
+
+
+.select::after {
+    content: '\25BC';
+    position: absolute;
+    top: 0;
+    right: 0;
+    padding: 1em;
+    background-color: #34495e;
+    transition: .25s all ease;
+    pointer-events: none;
+}
+
+/* Transition */
+.select:hover::after {
+    color: #f39c12;
+}

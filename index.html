@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Quotetook</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body id="main">
+    <div class="container">
+        <select class="select" id="category-select">
+            <option value="age">Age</option>
+            <option value="alone">Alone</option>
+            <option value="amazing">Amazing</option>
+            <option value="anger">Anger</option>
+            <option value="architecture">Architecture</option>
+            <option value="art">Art</option>
+            <option value="attitude">Attitude</option>
+            <option value="beauty">Beauty</option>
+            <option value="best">Best</option>
+            <option value="birthday">Birthday</option>
+            <option value="business">Business</option>
+            <option value="car">Car</option>
+            <option value="change">Change</option>
+            <option value="communications">Communications</option>
+            <option value="computers">Computers</option>
+            <option value="cool">Cool</option>
+            <option value="courage">Courage</option>
+            <option value="dad">Dad</option>
+            <option value="dating">Dating</option>
+            <option value="death">Death</option>
+            <option value="design">Design</option>
+            <option value="dreams">Dreams</option>
+            <option value="education">Education</option>
+            <option value="environmental">Environmental</option>
+            <option value="equality">Equality</option>
+            <option value="experience">Experience</option>
+            <option value="failure">Failure</option>
+            <option value="faith">Faith</option>
+            <option value="family">Family</option>
+            <option value="famous">Famous</option>
+            <option value="fear">Fear</option>
+            <option value="fitness">Fitness</option>
+            <option value="food">Food</option>
+            <option value="forgiveness">Forgiveness</option>
+            <option value="freedom">Freedom</option>
+            <option value="friendship">Friendship</option>
+            <option value="funny">Funny</option>
+            <option value="future">Future</option>
+            <option value="god">God</option>
+            <option value="good">Good</option>
+            <option value="government">Government</option>
+            <option value="graduation">Graduation</option>
+            <option value="great">Great</option>
+            <option value="happiness">Happiness</option>
+            <option value="health">Health</option>
+            <option value="history">History</option>
+            <option value="home">Home</option>
+            <option value="hope">Hope</option>
+            <option value="humor">Humor</option>
+            <option value="imagination">Imagination</option>
+            <option value="inspirational">Inspirational</option>
+            <option value="intelligence">Intelligence</option>
+            <option value="jealousy">Jealousy</option>
+            <option value="knowledge">Knowledge</option>
+            <option value="leadership">Leadership</option>
+            <option value="learning">Learning</option>
+            <option value="legal">Legal</option>
+            <option value="life">Life</option>
+            <option value="love">Love</option>
+            <option value="marriage">Marriage</option>
+            <option value="medical">Medical</option>
+            <option value="men">Men</option>
+            <option value="mom">Mom</option>
+            <option value="money">Money</option>
+            <option value="morning">Morning</option>
+            <option value="movies">Movies</option>
+            <option value="success">Success</option>
+        </select>
+        
+        <h1 class="quote" id="quote-text">Loading...</h1>
+        <h2 class="quote" id="quote-author">No Author</h2>
+
+        <button id="generate-button">Next Quote</button>
+    </div>
+    <script src="script.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/three.js/r134/three.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vanta@0.5.24/dist/vanta.fog.min.js"></script>
+    <script>
+        VANTA.FOG({
+            el: document.getElementById("main"),
+            mouseControls: true,
+            touchControls: true,
+            gyroControls: false,
+            minHeight: 200.00,
+            minWidth: 200.00,
+            highlightColor: 0x6c6c8b,
+            midtoneColor: 0x202a51,
+            lowlightColor: 0x40410,
+            baseColor: 0x181f3b,
+            speed: 1.20,
+            zoom: 1.30
+        })
+    </script>
+</body>
+
+</html>
