@@ -5,13 +5,11 @@ const categorySelect = document.getElementById('category-select');
 
 async function getQuote() {
     const selectedCategory = categorySelect.value;
-    const apiKey = process.env.GITHUB_X_API_KEY; // Получаем ключ API из переменной окружения
-
     const url = `https://api.api-ninjas.com/v1/quotes?category=${selectedCategory}`;
     const options = {
         method: 'GET',
         headers: {
-            'X-Api-Key': apiKey, // Используем ключ API
+            'X-Api-Key': 'D0cw4RFtUlIFFe7fNMyosw==sEOBsvUyDqsIspLO'
         }
     };
 
