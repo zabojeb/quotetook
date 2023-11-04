@@ -10,7 +10,7 @@ The site is designed to learn new techniques and to educate yourself.
 
 ### How to use
 
-1. Visit [Quotetook](https://your-github-username.github.io/quotetook/) on GitHub Pages.
+1. Visit [Quotetook](https://zabojeb.github.io/quotetook/) on GitHub Pages.
 2. Use the dropdown menu to select the category of the quote.
 3. Click the "Next Quote" button to get a random quote from the selected category.
 4. The quote and author's name will be displayed on the screen.
