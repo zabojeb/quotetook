@@ -30,7 +30,7 @@ If you have ideas or suggestions for improving **Quotetook**, feel free to contr
 
 ### License
 
-This project is licensed by Creative Commons. See the [LICENSE](LICENSE) file for details.
+This project is licensed under the MIT License. See the [LICENSE](LICENSE) file for details.
 
 ---
 
